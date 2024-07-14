@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.catalogue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 10px;
+    
+}
+
+.product-item img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-item h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.product-item button {
+    background-color: #ff3c6c;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.product-item button:hover {
+    background-color: #444;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+/* Add these media queries to the existing CSS code */
+
+/* Desktop layout (default) */
+
+
+/* Tablet layout (max-width: 768px) */
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile layout (max-width: 480px) */
+@media (max-width: 480px) {
+    .product-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .product-item {
+        margin-bottom: 20px;
+    }
+}
+
+/* Additional tweaks for smaller screens */
+@media (max-width: 320px) {
+    .product-item {
+        padding: 10px;
+    }
+    .product-item img {
+        height: 100px;
+    }
+}
