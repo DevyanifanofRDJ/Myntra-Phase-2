@@ -4,8 +4,7 @@ import matplotlib.pyplot as plt
 
 # First Dataset
 
-event=pd.read_csv('events.csv')
-event=event.iloc[:-2746101]
+event=pd.read_csv('event.csv')
 event=event.drop(columns='transactionid')
 event=event.dropna()
 
