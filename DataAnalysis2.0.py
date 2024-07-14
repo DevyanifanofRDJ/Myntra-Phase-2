@@ -10,8 +10,7 @@ event=event.dropna()
 
 # Second Dataset
 
-items=pd.read_csv('item1.csv')
-items=items.iloc[:-10989999]
+items=pd.read_csv('items.csv')
 
 # Both Datasets are combined on itemid
 
