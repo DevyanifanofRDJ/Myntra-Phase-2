@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outfit of the Day</title>
+    <link rel="stylesheet" href="OoTD.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="utils.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="containerHeader">
+        <nav class="flex space-between">
+          <div class="left flex items-center">
+            <a href="index.html"><img src="https://aartisto.com/wp-content/uploads/2020/11/myntra-1200x900.png"/></a>
+            <ul class="flex items-center justify-center  semibold">
+              <li><a href="MEN.html">MEN</a></li>
+              <li><a href="WOMEN.html">WOMEN</a></li>
+              <li><a href="KIDS.html">KIDS</a></li>
+              <li>HOME & LIVING</li>
+              <li>BEAUTY</li>
+              <li>STUDIO</li>
+              <li>OoTD</li>
+            </ul>
+          </div>
+          <div class="right flex items-center">
+            
+            <input class="search" placeholder="Search for products, brands and more" class="desktop-searchBar" value="" data-reactid="904">
+            <div class="rightBox">
+            <div class="profile mx-2">
+              &nbsp;&nbsp; &nbsp;<i class="fa fa-user" aria-hidden="true"></i><br>Profile
+            </div>
+            <div class="wishlist mx-2">
+              &nbsp;&nbsp; &nbsp;&nbsp;<i class="fa fa-heart" aria-hidden="true"></i><br>WishList
+            </div>
+            <div class="bag mx-2">
+              <i class="fa fa-shopping-bag" aria-hidden="true"></i><br>Bag
+            </div>
+              </div>
+          </div>
+        </nav>
+      </header>
+    <main>
+        <h1 class="center">Outfit of the Day</h1>
+        <section class="outfit-of-the-day">
+            <div class="outfit-container" id="image_result"></div>
+                <div class="outfit-info">
+                    <p id="des">Get ready to turn heads with this stunning outfit! Featuring a bold red dress, paired with statement earrings and sleek heels.</p>
+                    <div class="actions">
+                        <button class="buy-now">Buy Now</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                       
+                    </div>
+                    <br><br><br>
+                    <section class="comments">
+                      <h2>Comments</h2>
+                      <ul id="comment-list">
+                          <li>
+                              <p>Emily-<br>Love this outfit! The dress is so flattering.</p>
+                          </li>
+                          <li>
+                              <p>David-<br>This outfit is everything! The earrings are my fave.</p>
+                          </li>
+                      </ul>
+                      <form>
+                          <textarea id="comment-input" placeholder="Write a comment..."></textarea>
+                          <button class="post" id="post-comment">Post Comment</button>
+                      </form>
+                  </section>
+                </div>
+                 
+            </div>
+        </section>
+        <div id="result"></div> 
+
+
+        <section  class="container section1" >
+          <h4>Grand Global Brands</h4>
+            <img src="shop_by_cat/ad1.png" alt="browse more" id="ad1">
+          
+        </section>
+        <br>
+        <section  class="container section1" >
+          <h4>Trending In Fashion Wear</h4>
+            <img src="shop_by_cat/ad3.png" alt="browse more" id="ad1">
+          
+        </section>
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Outfit of the Day</p>
+    </footer>
+    <script src="ootd.js"></script>
+</body>
+</html>

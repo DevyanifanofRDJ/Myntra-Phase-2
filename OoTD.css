@@ -1,0 +1,141 @@
+.outfit-of-the-day {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+.outfit-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    padding:0;
+}
+
+
+#image_result {
+    width: 50%; /* adjust the width to your desired value */
+    height: 600px; /* adjust the height to your desired value */
+    object-fit: cover;
+    border-radius: 10px; /* add a border radius to give it a rounded corner */
+    margin: 20px; /* add some margin to give it some space */
+    justify-content: center;
+  }
+  
+
+.outfit-info {
+  flex: 1;
+  padding: 10px;
+  max-width: 300px;
+  margin-right: 100px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.add-to-cart{
+    background-color: rgb(246,78,196); /* same color for both buttons */
+    padding: 10px 10px; /* add some padding for a nicer look */
+    border: none; /* remove the default border */
+    border-radius: 5px; /* add a slight rounded corner */
+    cursor: pointer; /* change the cursor to a hand pointer on hover */
+    font-size: 14px; /* adjust the font size to your liking */
+    font-weight: bold; /* make the text bold */
+    color: #fff; /* white text color */
+    margin: 0 10px; /* add some space between the buttons */
+    display: inline-block;
+    width:250px;
+
+} .buy-now {
+    background-color: rgb(252,172,84);/* same color for both buttons */
+    padding: 10px 10px; /* add some padding for a nicer look */
+    border: none; /* remove the default border */
+    border-radius: 5px; /* add a slight rounded corner */
+    cursor: pointer; /* change the cursor to a hand pointer on hover */
+    font-size: 14px; /* adjust the font size to your liking */
+    font-weight: bold; /* make the text bold */
+    color: #fff; /* white text color */
+    margin: 0 10px; /* add some space between the buttons */
+    display: inline-block; /* display the buttons inline */
+  width:200px;}
+  
+  .add-to-cart:hover,.buy-now:hover {
+    background-color: #444;;
+}
+ 
+  
+  /* add some space between the buttons */
+  .add-to-cart + .buy-now {
+    margin-left: 20px; /* add some extra space between the buttons */
+  }
+
+
+
+#des{
+
+color: #666;
+  font-size: 25px;
+  
+
+
+}
+h1{
+    
+  font-size: 30px;
+
+}
+
+#result{
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-left: 370px;
+}
+.post{
+    background-color: rgb(35, 202, 55);/* same color for both buttons */
+    padding: 8px 8px; /* add some padding for a nicer look */
+    border: none; /* remove the default border */
+    border-radius: 5px; /* add a slight rounded corner */
+    cursor: pointer; /* change the cursor to a hand pointer on hover */
+    font-size: 14px; /* adjust the font size to your liking */
+    font-weight: bold; /* make the text bold */
+    color: #fff; /* white text color */
+    margin: 0 50px; 
+    display: inline-block; 
+  width:150px;
+
+}
+#comment-input {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%; /* adjust the width to your liking */
+  margin-left: 45px;
+  margin-top: 10px;
+}
+#ad1{
+  
+  
+  width: 100%;
+  height: 280px;
+  background-color: #fff;
+  padding: 10px 0px;
+  text-align: center;
+}
+h4{
+  color: #444;
+  margin-bottom: 0px;
+}
+ 
+ 
+
+
